@@ -1,6 +1,10 @@
 #!/bin/bash
 #clear
 
+#Linux Wifi Proxy setter 
+#Author- Namila Bandara
+#You can use this to set and unset the proxy
+
 if [[ "$(whoami)" != "root" ]];then
 	echo -e "run in sudo mode"
 	exit 1
